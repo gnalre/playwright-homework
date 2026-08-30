@@ -7,9 +7,3 @@ test.beforeEach( async({page}) => {
 test('Home page is opened and Welcome message is displayed1', async ({page}) => {
   await expect(page.locator('.title')).toHaveText('Welcome to Petclinic')
 });
-test('Home page is opened and Welcome message is displayed2', async ({page}) => {
-  await expect(page.locator('.title')).toHaveText('Welcome to Petclinic')
-});
-test('Home page is opened and Welcome message is displayed3', async ({page}) => {
-  await expect(page.locator('.title')).toHaveText('Welcome to Petclinic')
-});
