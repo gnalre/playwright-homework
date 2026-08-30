@@ -4,12 +4,12 @@ test.beforeEach( async({page}) => {
   await page.goto('/')
 })
 
-test('Home page is opened and Welcome message is displayed_1', async ({page}) => {
+test('Home page is opened and Welcome message is displayed1', async ({page}) => {
   await expect(page.locator('.title')).toHaveText('Welcome to Petclinic')
 });
-test('Home page is opened and Welcome message is displayed_2', async ({page}) => {
+test('Home page is opened and Welcome message is displayed2', async ({page}) => {
   await expect(page.locator('.title')).toHaveText('Welcome to Petclinic')
 });
-test('Home page is opened and Welcome message is displayed_3', async ({page}) => {
+test('Home page is opened and Welcome message is displayed3', async ({page}) => {
   await expect(page.locator('.title')).toHaveText('Welcome to Petclinic')
 });
